@@ -13,7 +13,7 @@ class MainDesktop extends StatelessWidget {
     return  Container(
       margin: EdgeInsets.symmetric(
         horizontal: 20,),
-      height: screenHeight / 1,
+      height: screenHeight / 1.8,
       constraints: BoxConstraints(
           minHeight: 350),
       child: Row(

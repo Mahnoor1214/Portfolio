@@ -24,11 +24,11 @@ List<ProjectsUtils> workProjectUtils = [
       title: 'Todo App',
       subtitle: 'An app that takes user input about what to do today and descrition'),
   ProjectsUtils(
-      image: 'assets/Projects/whatsapp.png',
+      image: 'assets/Projects/whatsapp1.png',
       title: 'Whatsapp Clone',
       subtitle:'Has the layout of whatsapp updates calls and chats secions'),
   ProjectsUtils(
-      image: 'assets/Projects/Facebook.png',
+      image: 'assets/Projects/Facebook1.png',
       title:'Facbook clone app',
       subtitle: 'has the ui of facebook')
 ];

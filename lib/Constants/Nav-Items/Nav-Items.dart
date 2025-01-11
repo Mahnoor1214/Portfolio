@@ -5,7 +5,6 @@ List<String>NavTitles=[
   'Projects',
   'Contacts',
 ];
-
 List<IconData> NavIcons = [
   Icons.home,
   Icons.handyman_outlined,

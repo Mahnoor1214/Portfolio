@@ -5,8 +5,8 @@ import 'package:portfolio/Styles/style.dart';
 import 'package:portfolio/Widgets/site-logo.dart';
 
 class HeaderDesktop extends StatelessWidget {
-  const HeaderDesktop({super.key});
-
+   HeaderDesktop({super.key, required this.onNavMenuTap});
+final Function(int) onNavMenuTap;
   @override
   Widget build(BuildContext context) {
     return  Container(
@@ -20,7 +20,9 @@ class HeaderDesktop extends StatelessWidget {
           Spacer(),
           Padding(padding: EdgeInsets.only(right: 20)),
           for(int i=0;i<NavTitles.length;i++)
-            TextButton(onPressed: (){}, child:
+            TextButton(onPressed: (){
+              onNavMenuTap(i);
+            }, child:
             Text(NavTitles[i],style: TextStyle(fontSize: 16,
                 fontWeight: FontWeight.w500,color: CustomColor.whitePrimary),),
             )],
